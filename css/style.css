@@ -13,6 +13,7 @@ body {
   background: palevioletred;
   color: white;
   line-height: 1.6;
+  font-size: 16px;
 }
 
 h1, h2, a {
@@ -221,7 +222,12 @@ button:hover {
     }
     .main-nav li a {
      padding: 0.5em;
-     border: 0.25em solid transparent;
+     border: 0.25em solid plum;
+  }
+
+  .main-nav li {
+    font-size: 0.75em;
+    font-weight: 600;
   }
 
   }
